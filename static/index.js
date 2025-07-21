@@ -33,7 +33,7 @@ async function run() {
     const latestDiv = document.getElementById("latest");
     const popularDiv = document.getElementById("popular");
 
-    await fetch('https://developers.medal.tv/v1/latest?userId=37135618&limit=3&autoplay=0', {
+    await fetch('https://developers.medal.tv/v1/latest?userId=37135618&limit=3&autoplay=0&muted=0', {
         method: 'GET',
         headers: {
             "Authorization": "pub_g1yIWvJmVO0TB2rBn89Dh7yET1vp3zSs",
