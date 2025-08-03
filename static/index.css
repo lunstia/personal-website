@@ -44,6 +44,12 @@ h1 {
     align-items: center;
 }
 
+h1>p {
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+}
+
 
 #name {
     font-family: "Bitcount Prop Single", system-ui;
@@ -57,6 +63,8 @@ h1 {
         "ELXP" 0;
     color: #F77F00;
     font-size: 28px;
+    justify-content: center;
+    align-items: center;
 }
 
 #titles {
